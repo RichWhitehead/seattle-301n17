@@ -2,15 +2,8 @@
   font-family: times;
 }
 
-#logo h1 {
-  font-family: 'Yellowtail', cursive;
-  font-size: 2.4em;
-}
-
-#slogan {
-  font-family: 'Abel', sans-serif;
-  font-size: .65em;
-  text-transform: uppercase;
+body {
+  background: #fff;
 }
 
 h2 {
@@ -19,6 +12,7 @@ h2 {
 }
 
 .print, .date {
+  color: #a9a8a5;
   font-family: 'Abel', sans-serif;
   font-size: .8em;
   text-transform: uppercase;
@@ -29,43 +23,9 @@ h2 {
 }
 
 main p {
+  color: #333;
   font-size: 1.2em;
   line-height: 1.3em;
   text-indent: 30px;
-}
-
-input {
-  font-family: 'Patrick Hand', cursive;
-}
-
-
-.recipe {
-  letter-spacing: .1em;
-  font-family: 'Patrick Hand', cursive;
-}
-
-.recipe li {
-  font-size: 1.3em;
-  line-height: 31px;
-}
-
-
-aside h3 {
-  font-size: 1.6em;
-}
-
-aside p {
-  text-indent: 0;
-}
-
-aside button {
-  font-family: 'Abel', sans-serif;
-  text-transform: uppercase;
-  font-size: 1.2em;
-}
-
-footer section p{
-  line-height: 1.5em;
-  text-align: center;
 }
 
